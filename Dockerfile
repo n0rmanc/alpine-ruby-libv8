@@ -1,4 +1,4 @@
-FROM ruby:${RUBY_VERSION}-alpine
+FROM ruby:$2.2-alpine
 
 ENV LIBV8_MAJOR 5.3.332.38
 ENV LIBV8_VERSION 5.3.332.38.5-x86_64-linux
